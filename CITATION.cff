@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+title: >-
+  GWO-OP-SW: Order-Preserving Grey Wolf Optimizer for Selective Optimal
+  Pulse-Width Modulation
+message: If you use this software, please cite the accompanying paper.
+type: software
+authors:
+  - family-names: Sinlapakorn
+    given-names: Thapakorn
+    email: thapakorn_sinlapakorn@kkumail.com
+    affiliation: Department of Mathematics, Khon Kaen University
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO
+  - family-names: Singsathid
+    given-names: Pirapong
+    email: pirasi@kku.ac.th
+    affiliation: Department of Mathematics, Khon Kaen University
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO
+license: MIT
+keywords:
+  - grey wolf optimizer
+  - selective optimal pulse-width modulation
+  - selective harmonic elimination
+  - multilevel inverter
+  - constrained optimization
+  - CEC2020
+preferred-citation:
+  type: article
+  title: >-
+    Order-Preserving Grey Wolf Optimizer for Selective Optimal Pulse-Width
+    Modulation in Multilevel Inverters
+  authors:
+    - family-names: Sinlapakorn
+      given-names: Thapakorn
+    - family-names: Singsathid
+      given-names: Pirapong
+  journal: Bulletin of Electrical Engineering and Informatics
+  # year:   # TODO on acceptance
+  # volume:
+  # issue:
+  # start:
+  # end:
+  # doi:

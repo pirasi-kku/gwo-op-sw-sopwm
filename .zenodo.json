@@ -1,0 +1,27 @@
+{
+  "title": "GWO-OP-SW: Order-Preserving Grey Wolf Optimizer for Selective Optimal Pulse-Width Modulation",
+  "description": "<p>Code and results reproducing the tables and figures of the paper &ldquo;Order-Preserving Grey Wolf Optimizer for Selective Optimal Pulse-Width Modulation in Multilevel Inverters&rdquo;.</p><p>GWO-OP-SW searches a non-negative increment space and decodes it by a cumulative sum, so that the ordering constraints of the SOPWM problem hold by construction rather than being repaired or penalized. A square-wave convergence-factor schedule counters the premature convergence a monotonic schedule leaves unresolved. Evaluated on instances RC45-RC50 of the CEC2020 real-world constrained optimization suite.</p>",
+  "upload_type": "software",
+  "license": "MIT",
+  "access_right": "open",
+  "creators": [
+    {
+      "name": "Sinlapakorn, Thapakorn",
+      "affiliation": "Department of Mathematics, Khon Kaen University, Khon Kaen, Thailand"
+    },
+    {
+      "name": "Singsathid, Pirapong",
+      "affiliation": "Department of Mathematics, Khon Kaen University, Khon Kaen, Thailand"
+    }
+  ],
+  "keywords": [
+    "grey wolf optimizer",
+    "metaheuristic optimization",
+    "multilevel inverter",
+    "selective harmonic elimination",
+    "selective optimal pulse-width modulation",
+    "constrained optimization",
+    "CEC2020"
+  ],
+  "language": "eng"
+}
