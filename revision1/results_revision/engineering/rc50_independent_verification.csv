@@ -1,0 +1,2 @@
+label,f_recomputed,mean_cv_recomputed,feasible_recomputed,ordering_strictly_increasing,within_bounds_0_90,max_ineq_g,equality_h,reported_best_f,reported_best_cv,f_matches_reported
+"T2 rerun, best feasible run (angles independently recomputed)",0.015040041955377092,1.934095447793873e-07,True,True,True,-2.429006028454751e-06,0.00010580228634338162,0.015040041955377,1.934095447793873e-07,True

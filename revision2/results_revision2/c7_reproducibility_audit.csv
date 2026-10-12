@@ -1,0 +1,19 @@
+algorithm,prob_k,source,rel_diff,verdict
+COLSHADE,47,re-run,3.083267020522341e-16,verified
+DE,47,archive,1.689272843802606e-15,verified
+WOA,47,archive,6.705097189778589e-16,verified
+GWO,47,re-run,1.948750934276528e-16,verified
+PSO,47,archive,0.0,verified
+GA,47,archive,7.846161031694757e-16,verified
+COLSHADE,49,re-run,1.9342877166410458e-15,verified
+DE,49,archive,1.5806663041496513e-15,verified
+WOA,49,archive,5.258854294512314e-16,verified
+GWO,49,re-run,0.0,verified
+PSO,49,archive,3.5004729525913832e-16,verified
+GA,49,archive,0.0,verified
+COLSHADE,50,re-run,2.1638973882466095e-15,verified
+DE,50,archive,8.295740189248608e-16,verified
+WOA,50,n/a,,no feasible run
+GWO,50,n/a,,no feasible run
+PSO,50,n/a,,no feasible run
+GA,50,n/a,,no feasible run

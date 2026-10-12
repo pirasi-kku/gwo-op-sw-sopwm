@@ -1,5 +1,5 @@
 test,comparison,statistic,p_value
-Friedman (across 6 problems),all algorithms,29.815950920245385,4.2605053555016585e-05
+Friedman (across 6 problems),all algorithms,31.59493670886074,1.9509260942843128e-05
 Wilcoxon signed-rank,GWO-OP-SW vs GWO,0.0,0.03125
 Wilcoxon signed-rank,GWO-OP-SW vs PSO,0.0,0.03125
 Wilcoxon signed-rank,GWO-OP-SW vs WOA,0.0,0.03125
@@ -7,9 +7,9 @@ Wilcoxon signed-rank,GWO-OP-SW vs DE,0.0,0.03125
 Wilcoxon signed-rank,GWO-OP-SW vs GA,0.0,0.03125
 Wilcoxon signed-rank,GWO-OP-SW vs HHO,0.0,0.03125
 Average rank,GWO-OP-SW,1.0,
-Average rank,GWO,5.583333333333333,
-Average rank,PSO,4.25,
-Average rank,WOA,4.5,
+Average rank,GWO,5.666666666666667,
+Average rank,PSO,4.333333333333333,
+Average rank,WOA,4.333333333333333,
 Average rank,DE,2.0,
-Average rank,GA,4.083333333333333,
-Average rank,HHO,6.583333333333333,
+Average rank,GA,4.0,
+Average rank,HHO,6.666666666666667,

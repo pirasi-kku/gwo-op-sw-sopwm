@@ -48,7 +48,15 @@ import time
 from sopwm_objective import sopwm_evaluate, get_bounds, get_dimension, \
     mean_constraint_violation, BEST_KNOWN
 
-EPS_MARGIN = 1e-5
+EPS_MARGIN = 1e-5  # delta_min in Eq.(5) of the manuscript. DELIBERATELY LARGER than the
+# ordering-constraint margin eps=1e-6 in sopwm_objective.py -- do NOT "fix" it to 1e-6.
+# Rationale (manuscript Sec. 2.3, verified numerically): the decode rescales by
+# sigma = min(1, alpha_max/sum(delta)), which contracts separations to sigma*delta_min.
+# With delta_min=1e-5 the ordering constraints hold exactly while sum(delta) <= 900 deg,
+# and the worst case the search space admits gives mean violation 1.78e-7 at D=30 --
+# a factor 5.6 below the 1e-6 feasibility threshold. Setting delta_min=1e-6 shrinks that
+# exact region to 90 deg and the safety factor to 1.5x, weakening the guarantee for no gain.
+
 
 # ---- พารามิเตอร์สุดท้ายของ square_wave a-decay (จาก tuning ablation) ----
 A_HIGH = 2.0

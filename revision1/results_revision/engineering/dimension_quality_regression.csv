@@ -1,0 +1,9 @@
+algorithm,n_feasible_runs,n_instances,slope_log_ratio_per_unit_size,p_value,pct_change_per_unit_size,note
+COLSHADE,155,6,0.351893386288187,1.0783106063644811e-29,42.17569368537679,feasible runs only -- survivorship bias where FR is low
+DE,123,6,0.2128794025130407,6.641611154809224e-06,23.723543476200582,feasible runs only -- survivorship bias where FR is low
+GA,67,5,0.3295994471865928,5.632525934444926e-07,39.04110838369084,feasible runs only -- survivorship bias where FR is low
+GWO,29,5,0.4277417976873721,1.328014584147561e-06,53.379000170996285,feasible runs only -- survivorship bias where FR is low
+GWO-OP-SW,180,6,0.015457389071340477,0.4511979528072384,1.557747243708385,feasible runs only -- survivorship bias where FR is low
+HHO,2,1,,,,too few feasible runs/instances for a meaningful fit
+PSO,97,5,0.3193296843686569,1.2724841479161207e-09,37.62049633876692,feasible runs only -- survivorship bias where FR is low
+WOA,81,5,0.1359549308910592,0.01425081799195667,14.563025989633903,feasible runs only -- survivorship bias where FR is low
